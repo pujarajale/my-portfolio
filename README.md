@@ -15,7 +15,7 @@ This is a React-based portfolio web application showcasing my projects, skills, 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/portfolio-react-app.git
+   git clone https://github.com/pujarajale/my-portfolio.git
 
 
 ## Available Scripts
