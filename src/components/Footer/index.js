@@ -4,6 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../utils/constants';
+import { Link } from "react-router-dom";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -90,10 +91,21 @@ const Footer=()=> {
       <FooterWrapper>
         <Logo>Puja Rajale</Logo>
         <Nav>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#education">Education</NavLink>
+          <NavLink>
+            <Link to="/">About</Link>
+          </NavLink>
+          <NavLink>
+            <Link to="/skills">Skills</Link>
+          </NavLink>
+          <NavLink>
+            <Link to="/experience">Experience</Link>
+          </NavLink>
+          <NavLink>
+            <Link to="/education">Education</Link>
+          </NavLink>  
+          <NavLink>
+            <Link to="/contact">Contact</Link>
+          </NavLink> 
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio?.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
