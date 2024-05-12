@@ -48,18 +48,10 @@ const Navbar = () => {
           />
         </MobileIcon>
         <NavItems>
-          <NavLink>
             <Link to="/skills">Skills</Link>
-          </NavLink>
-          <NavLink>
             <Link to="/experience">Experience</Link>
-          </NavLink>
-          <NavLink>
             <Link to="/education">Education</Link>
-          </NavLink>
-          <NavLink>
             <Link to="/contact">Contact</Link>
-          </NavLink>
         </NavItems>        
 <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">

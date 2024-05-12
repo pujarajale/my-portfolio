@@ -60,6 +60,20 @@ color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     font-size: 1rem;
   }
+  a {
+    color: ${({ theme }) => theme.text_primary};
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  :hover {
+    color: ${({ theme }) => theme.primary};
+  }
+
+  &.active {
+    border-bottom: 2px solid ${({ theme }) => theme.primary};
+  }
+  }
 `;
 
 const SocialMediaIcons = styled.div`
