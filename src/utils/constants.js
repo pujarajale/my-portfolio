@@ -11,7 +11,7 @@ export const Bio = {
   github: "https://github.com/pujarajale",
   resume:
     "https://drive.google.com/file/d/1k9E5ZAtd1YeHtFIf2HyoyY0ZyhtY0BeE/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/puja-rajale/",
+  linkedin: "https://www.linkedin.com/in/puja-r-24ab7616b",
   twitter: "https://twitter.com",
   insta: "https://www.instagram.com",
   facebook: "https://www.facebook.com",

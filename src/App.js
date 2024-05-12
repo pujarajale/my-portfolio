@@ -1,13 +1,16 @@
-import { useState } from "react";
-import { BrowserRouter as Router } from 'react-router-dom';
 import { ThemeProvider } from "styled-components";
-import styled from "styled-components";
+import { useState } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
+import './App.scss';
+import { BrowserRouter as Router } from 'react-router-dom';
+import ProfileSection from "./components/profileSection";
 import Skills from "./components/Skills";
-import ProfileSection from "./components/profileSection/index.js";
-import Experience from "./components/Experience/index.js";
-import Education from "./components/Education/index.js";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
+import styled from "styled-components";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -27,12 +30,16 @@ function App() {
       <Router >
         <Navbar />
         <Body>
-          <ProfileSection/>
+          <ProfileSection />
           <Wrapper>
             <Skills />
-            <Experience/>
-            <Education/>
+            <Experience />
           </Wrapper>
+          <Wrapper>
+            <Education />
+            <Contact />
+          </Wrapper>
+          <Footer />
         </Body>
       </Router>
     </ThemeProvider>

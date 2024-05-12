@@ -33,7 +33,7 @@ const Navbar = () => {
             }}
             href="www.myprotfolio.com"
           >
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            <DiCssdeck size="3rem" /> <Span>Puja Rajale</Span>
           </a>
         </NavLogo>
         <MobileIcon>
