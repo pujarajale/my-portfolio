@@ -24,7 +24,7 @@ const Wrapper = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `;
 const App=()=> {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode] = useState(true);
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
