@@ -146,3 +146,25 @@ export const experiences = [
     ],
   },
 ];
+
+
+export const education = [
+  {
+    id: 0,
+    img:"https://www.dietms.org/wp-content/uploads/2023/11/diems-png-logo.png",
+    school: "Deogiri Institute Of Engineering And Management Studies Aurangabad, Maharashtra, India",
+    date: "Aug 2016 - Dec 2020",
+    grade: "6.7 CGPA",
+    desc: "I completed my Bachelor's degree in Computer Science and Engineering at Dr.BAMU Univercity, Aurangabad. I have completed 4 semesters and have a CGPA of 6.7. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    degree: "Bachelor of Engineering - BE, Computer Science and Engineering",
+  },
+  {
+    id: 1,
+    img:"https://vivekanandcollege.edu.in/img/gom.png",
+    school: "Vivekanand Arts, Sardar Dalipsingh Commerce and Science College, Aurangabad",
+    date: "Jun 2014 - Apr 2016",
+    grade: "64.00%",
+    desc: "I completed my class 12 education at Vivekanand college, Aurangabad, where I studied Science with Computer Science.",
+    degree: "HSC(XII), Science with Computer",
+  },
+];

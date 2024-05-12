@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import ProfileSection from "./components/profileSection/index.js";
 import Experience from "./components/Experience/index.js";
+import Education from "./components/Education/index.js";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -30,6 +31,7 @@ function App() {
           <Wrapper>
             <Skills />
             <Experience/>
+            <Education/>
           </Wrapper>
         </Body>
       </Router>
