@@ -123,15 +123,15 @@ const Skill = styled.div`
 
 
 
-const ExperienceCard = ({ experience }) => {
+const ExperienceCard = ({ experience, index }) => {
     return (
-        <Card>
+        <Card key={index}>
             <Top>
-                <Image src={experience.img} />
+                <Image src={experience?.img} alt='logo' />
                 <Body>
-                    <Role>{experience.role}</Role>
-                    <Company>{experience.company}</Company>
-                    <Date>{experience.date}</Date>
+                    <Role>{experience?.role}</Role>
+                    <Company>{experience?.company}</Company>
+                    <Date>{experience?.date}</Date>
                 </Body>
             </Top>
             <Description>
@@ -146,7 +146,7 @@ const ExperienceCard = ({ experience }) => {
                             <b>Skills:</b>
                             <ItemWrapper>
                                 {experience?.skills?.map((skill, index) => (
-                                    <Skill>• {skill}</Skill>
+                                    <Skill key={index}>• {skill}</Skill>
                                 ))}
                             </ItemWrapper>
                         </Skills>

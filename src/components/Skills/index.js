@@ -127,14 +127,14 @@ const Skills = () => {
           past 2.9 years.
         </Desc>
         <SkillsContainer>
-          {skills?.map((skill) => (
-            <Skill>
+          {skills?.map((skill,index) => (
+            <Skill key={index}>
               <SkillTitle>{skill?.title}</SkillTitle>
               <SkillList>
-                {skill?.skills?.map((item) => (
-                  <SkillItem>
+                {skill?.skills?.map((item, index) => (
+                  <SkillItem  key={index}>
                     <SkillImage src={item?.image} />
-                    {item.name}
+                    {item?.name}
                   </SkillItem>
                 ))}
               </SkillList>

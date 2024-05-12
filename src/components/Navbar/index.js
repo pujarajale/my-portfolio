@@ -23,19 +23,21 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          <a
-            style={{
-              display: "flex",
-              alignItems: "center",
-              color: "white",
-              marginBottom: "20;",
-              cursor: "pointer",
-            }}
-            href="www.myprotfolio.com"
-          >
-            <DiCssdeck size="3rem" /> <Span>Puja Rajale</Span>
-          </a>
+  <div
+    style={{
+      display: "flex",
+      alignItems: "center",
+      color: "white",
+      marginBottom: "20px",
+      cursor: "pointer",
+    }}
+  >
+    <DiCssdeck size="3rem" /> <Span>Puja Rajale</Span>
+  </div>
+
+
         </NavLogo>
+        
         <MobileIcon>
           <FaBars
             onClick={() => {
