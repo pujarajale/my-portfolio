@@ -6,6 +6,7 @@ import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import ProfileSection from "./components/profileSection/index.js";
+import Experience from "./components/Experience/index.js";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -28,6 +29,7 @@ function App() {
           <ProfileSection/>
           <Wrapper>
             <Skills />
+            <Experience/>
           </Wrapper>
         </Body>
       </Router>
