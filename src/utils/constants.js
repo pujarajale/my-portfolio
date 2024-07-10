@@ -117,7 +117,7 @@ export const experiences = [
     img: "	https://apptware.com/wp-content/uploads/2024/02/Apptware-Hr.png",
     role: "Associate Web UI Developer",
     company: "Apptware Solutions LLP, Pune",
-    date: "Sep 2021 - Present",
+    date: "Sep 2021 - May-2024",
     desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI. The HRMS project showcases my hands-on involvement in designing and implementing functionalities, specifically focusing on timesheet management and onboarding processes, to meet the dynamic needs of modern businesses.",
     skills: [
       "ReactJS",
