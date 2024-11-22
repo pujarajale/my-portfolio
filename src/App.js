@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import styled from "styled-components";
-
+import PageNotFound from "./components/PageNotFound";
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -37,6 +37,7 @@ const App=()=> {
               <Route path="/experience" element={<Experience />} />
               <Route path="/education" element={<Education />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="*"  element={<PageNotFound />} />
           </Routes>
          </Wrapper>
           <Footer />

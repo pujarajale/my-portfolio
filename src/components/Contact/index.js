@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { useRef } from 'react';
 import { Snackbar } from '@mui/material';
 // import emailjs from '@emailjs/browser';
+import Button from '../../common/Button';
 
 const Container = styled.div`
 display: flex;
@@ -153,6 +154,10 @@ const Contact = () => {
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
+          <Button text="Primary Button"  className="btn-primary" />
+          <Button text="Secondary Button"  className="btn-secondary" />
+          <Button text="Custom Styled Button"  style={{ backgroundColor: 'green', color: 'white' }} />
+          <Button text="Disabled Button"  disabled />
         </ContactForm>
         <Snackbar
           open={open}
